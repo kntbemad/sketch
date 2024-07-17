@@ -5,19 +5,18 @@
     width: 600px;
     align-items: center;
     justify-content: center;
+    box-shadow: 10px 10px 10px rgb(150, 150, 150);
 }
 
 .box {
-    width: 34px;
-    height: 34px;
-    border: 0.5px solid black;
+    background-color: antiquewhite;
 }
 
 .boxrow {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: stretch;
+    flex: 0, 0, auto;
 }
 
 body {
@@ -25,6 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
     
 }
 
